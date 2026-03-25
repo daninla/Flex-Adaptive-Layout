@@ -2,14 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>CSS Grid Responsive Site</title>
+    <title>Flexbox Responsive Site</title>
   </head>
   <body>
-    <header id="showcase" class="grid">
+    <header id="showcase">
       <div class="bg-image"></div>
       <div class="content-wrap">
         <h1>Welcome to Acme Web Solutions</h1>
@@ -22,7 +22,7 @@
       </div>
     </header>
     <main id="main">
-        <section id="section-a" class="grid">
+      <section id="section-a">
         <div class="content-wrap">
           <h2 class="content-title">Web &amp; Application Development</h2>
           <div class="content-text">
@@ -36,11 +36,11 @@
           </div>
         </div>
       </section>
-      <section id="section-b" class="grid">
-        <ul>
+      <section id="section-b">
+        <ul class="content-wrap">
           <li>
             <div class="card">
-              <img src="./imgs/web.jpeg" alt="">
+              <img src="./assets/images/01.jpg" alt="notebook img" />
               <div class="card-content">
                 <h3 class="card-title">Web Development</h3>
                 <p>
@@ -53,7 +53,7 @@
           </li>
           <li>
             <div class="card">
-              <img src="./imgs/mobile.jpeg" alt="">
+              <img src="./assets/images/02.jpg" alt="phone img" />
               <div class="card-content">
                 <h3 class="card-title">Mobile Applications</h3>
                 <p>
@@ -66,7 +66,7 @@
           </li>
           <li>
             <div class="card">
-              <img src="./imgs/tech.jpeg" alt="">
+              <img src="./assets/images/03.jpg" alt="graphic img" />
               <div class="card-content">
                 <h3 class="card-title">Tech Marketing</h3>
                 <p>
@@ -79,7 +79,7 @@
           </li>
         </ul>
       </section>
-      <section id="section-c" class="grid">
+      <section id="section-c">
         <div class="content-wrap">
           <h2 class="content-title">We handle all of your digital needs</h2>
           <p>
@@ -89,7 +89,7 @@
           </p>
         </div>
       </section>
-      <section id="section-d" class="grid">
+      <section id="section-d">
         <div class="box">
           <h2 class="content-title">Contact Us</h2>
           <p>
@@ -108,9 +108,8 @@
           </p>
         </div>
       </section>
-
     </main>
-    <footer id="main-footer" class="grid">
+    <footer id="main-footer">
       <div>Acme Web Solutions</div>
       <div>
         Project By
