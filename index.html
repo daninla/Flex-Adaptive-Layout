@@ -40,7 +40,13 @@
         <ul class="content-wrap">
           <li>
             <div class="card">
-              <img src="./assets/images/01.jpg" alt="notebook img" />
+              <picture>
+                <source
+                  srcset="./assets/images/01_small.jpg"
+                  media="(max-width: 700px)"
+                />
+                <img src="./assets/images/01.jpg" alt="notebook img" />
+              </picture>
               <div class="card-content">
                 <h3 class="card-title">Web Development</h3>
                 <p>
